@@ -18,7 +18,7 @@ const Home = () => {
               className="text-center"
             >
               <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">
-                Hello, I'm <span className="text-primary">Alex Johnson</span>
+                Hello, I'm <span className="text-primary">Jude Samuel</span>
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground mb-8">
                 A full-stack developer focused on creating intuitive and engaging digital experiences.

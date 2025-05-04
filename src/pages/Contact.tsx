@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import PageTransition from "@/components/PageTransition";
+import { WhatsApp, MapPin } from "lucide-react";
 
 const Contact = () => {
   const { toast } = useToast();
@@ -62,13 +63,15 @@ const Contact = () => {
               <div>
                 <h2 className="text-xl font-semibold mb-4">Contact Information</h2>
                 <div className="space-y-4">
-                  <div>
-                    <h3 className="font-medium">Email</h3>
-                    <p className="text-muted-foreground">hello@alexjohnson.dev</p>
+                  <div className="flex items-center gap-2">
+                    <WhatsApp size={18} />
+                    <h3 className="font-medium">WhatsApp</h3>
+                    <p className="text-muted-foreground">+2349168474213</p>
                   </div>
-                  <div>
+                  <div className="flex items-center gap-2">
+                    <MapPin size={18} />
                     <h3 className="font-medium">Based in</h3>
-                    <p className="text-muted-foreground">San Francisco, CA</p>
+                    <p className="text-muted-foreground">Lekki, Lagos State, Nigeria</p>
                   </div>
                   <div>
                     <h3 className="font-medium">Follow me</h3>

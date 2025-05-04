@@ -22,7 +22,7 @@ const About = () => {
             
             <div className="prose prose-lg dark:prose-invert max-w-none">
               <p className="text-lg mb-8">
-                I'm Alex Johnson, a full-stack developer with over 5 years of experience building web applications. 
+                I'm Jude Samuel, a full-stack developer with over 5 years of experience building web applications. 
                 I specialize in creating responsive, accessible, and performant web experiences using modern technologies.
               </p>
               
