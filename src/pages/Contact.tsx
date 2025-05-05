@@ -1,6 +1,6 @@
 
 import { motion } from "framer-motion";
-import { useToast } from "@/components/ui/use-toast";
+import { useToast } from "@/hooks/use-toast";
 import { Button } from "@/components/ui/button";
 import PageTransition from "@/components/PageTransition";
 import { MessageCircle, MapPin } from "lucide-react";
