@@ -17,6 +17,23 @@ const Home = () => {
               transition={{ duration: 0.5 }}
               className="text-center"
             >
+              <div className="flex justify-center mb-8">
+                <div className="relative w-60 h-60">
+                  <motion.div
+                    initial={{ scale: 0.8, opacity: 0 }}
+                    animate={{ scale: 1, opacity: 1 }}
+                    transition={{ duration: 0.7 }}
+                    className="w-full h-full"
+                  >
+                    <img 
+                      src="/lovable-uploads/4ee2de0b-6018-45cf-8550-4a8703a523ca.png" 
+                      alt="JUDE-TECH Logo" 
+                      className="w-full h-full object-contain"
+                    />
+                  </motion.div>
+                </div>
+              </div>
+              
               <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">
                 Hello, I'm <span className="text-primary">Jude Samuel</span>
               </h1>

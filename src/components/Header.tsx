@@ -21,8 +21,15 @@ const Header = () => {
   return (
     <header className="py-6 w-full">
       <div className="container flex items-center justify-between">
-        <Link to="/" className="text-xl font-bold">
-          Portfolio
+        <Link to="/" className="flex items-center gap-2">
+          <div className="w-10 h-10">
+            <img 
+              src="/lovable-uploads/4ee2de0b-6018-45cf-8550-4a8703a523ca.png" 
+              alt="JUDE-TECH Logo" 
+              className="w-full h-full object-contain"
+            />
+          </div>
+          <span className="text-xl font-bold">JUDE-TECH</span>
         </Link>
         
         <div className="flex items-center gap-8">
